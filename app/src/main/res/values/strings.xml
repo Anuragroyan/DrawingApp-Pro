@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Drawing_App_Kids</string>
+    <string name="drawing_app_kids">Drawing_App_Kids</string>
+    <string name="small">small</string>
+    <string name="medium">medium</string>
+    <string name="large">large</string>
+    <string name="image">image</string>
+    <string name="brush">brush</string>
+    <string name="screen">screen</string>
+    <string name="gallery">gallery</string>
+    <string name="undo">undo</string>
+    <string name="redo">redo</string>
+    <string name="save">save</string>
+    <string name="please_wait">Please Wait...</string>
+</resources>
