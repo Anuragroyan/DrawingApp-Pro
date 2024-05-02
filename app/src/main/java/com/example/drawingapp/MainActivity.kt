@@ -183,7 +183,7 @@ class MainActivity : AppCompatActivity() {
 
     // func to requeststorage permission
     private fun requestStoragePermission(){
-        // chech if the permission was denied and show rationale
+        // check if the permission was denied and show rationale
        if(ActivityCompat.shouldShowRequestPermissionRationale(
            this,
            Manifest.permission.READ_EXTERNAL_STORAGE)){
@@ -304,6 +304,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    // func is for share image online
     private fun shareImage(result: String){
         MediaScannerConnection.scanFile(
             this,
