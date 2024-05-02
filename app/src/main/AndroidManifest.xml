@@ -14,7 +14,7 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/brush"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/gallery"
+        android:roundIcon="@drawable/brush"
         android:supportsRtl="true"
         android:theme="@style/Theme.DrawingApp"
         tools:targetApi="31">
