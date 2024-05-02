@@ -88,18 +88,22 @@ class MainActivity : AppCompatActivity() {
         mImageButtonCurrentPaint!!.setImageDrawable(
             ContextCompat.getDrawable(this, R.drawable.pallet_pressed)
         )
+        // for brush button from the layout
         val ib_brush : ImageButton = findViewById(R.id.ib_brush)
         ib_brush.setOnClickListener{
             showBrushSizeChooserDialog()
         }
+        // for gallery button from the layout
         val ib_gallery : ImageButton = findViewById(R.id.ib_gallery)
         ib_gallery.setOnClickListener{
             requestStoragePermission()
         }
+        // for undo button from the layout
         val ibUndo : ImageButton = findViewById(R.id.ib_undo)
         ibUndo.setOnClickListener{
            drawingView?.onClickUndo()
         }
+        // for redo button from the layout
         val ibRedo : ImageButton = findViewById(R.id.ib_redo)
         ibRedo.setOnClickListener{
             drawingView?.onClickRedo()
